@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Sum from './sum';
+import SumContainer from './SumContainer';
 
 function App() {
   return (
     <div className="App">
-       <Sum />
+      <h1>Gander</h1>
+      <SumContainer />
     </div>
   );
 }
